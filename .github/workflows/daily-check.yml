@@ -1,0 +1,17 @@
+name: Check for Claude Desktop updates
+
+on:
+  workflow_dispatch:  # manual trigger only — flip to schedule when pipeline is ready
+  # schedule:
+  #   - cron: '0 9 * * *'  # daily at 09:00 UTC
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pipeline placeholder
+        run: |
+          echo "Pipeline not yet implemented."
+          echo "See pipeline/README.md for design."
+          exit 0

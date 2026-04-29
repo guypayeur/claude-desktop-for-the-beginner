@@ -1,0 +1,15 @@
+{
+  "last_run": null,
+  "sources": {
+    "docs_anthropic_release_notes": {
+      "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "last_seen_hash": null,
+      "last_seen_at": null
+    },
+    "anthropic_news": {
+      "url": "https://www.anthropic.com/news",
+      "last_seen_hash": null,
+      "last_seen_at": null
+    }
+  }
+}
